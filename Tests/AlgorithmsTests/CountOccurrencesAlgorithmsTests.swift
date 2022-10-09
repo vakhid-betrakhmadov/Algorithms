@@ -1,6 +1,7 @@
 import XCTest
 import Algorithms
 
+#if os(iOS)
 final class CountOccurrencesAlgorithmsTests: XCTestCase {
     
     func testCountOccurrencesOfElementInCollectionWithMultipleElementsWhenElementIsInTheMiddle() {
@@ -65,3 +66,4 @@ final class CountOccurrencesAlgorithmsTests: XCTestCase {
         ]
     }
 }
+#endif

@@ -1,6 +1,7 @@
 import XCTest
 import Algorithms
 
+#if os(iOS)
 final class SearchAlgorithmsTests: XCTestCase {
     
     func testIndexOfElementInCollectionWithMultipleElementsWhenElementIsInTheMiddle() {
@@ -64,3 +65,4 @@ final class SearchAlgorithmsTests: XCTestCase {
         ]
     }
 }
+#endif
